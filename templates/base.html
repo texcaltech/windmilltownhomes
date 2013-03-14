@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Windmill Townhomes</title>
+    	<link type="text/css" rel="stylesheet" href="/css/main.css" />
+    	<script type="text/javascript" src="/js/jquery.js"></script>
+    	<script type="text/javascript" src="/js/main.js"></script>
+  	</head>
+  	<body>
+  		<header class="shadow">
+	  		<a href="/"><img src="/images/logo.jpeg" /></a>
+  			<ul id="tabs">
+  				<li><a href="/floor-plans">Floor Plans</a></li>
+  				<li><a href="/pre-lease">Pre-Lease</a></li>
+  				<li><a href="/location">Location</a></li>
+  				<li><a href="/pay-rent">Pay Rent</a></li>
+  				<li><a href="/maintenance">Maintenance</a></li>
+  				<li><a href="/contact">Contact</a></li>
+  			</ul>		
+  		</header>
+  		<img class="bg" src="http://farm9.staticflickr.com/8382/8552707810_b5110806a8_h.jpg" />
+  		<section class="main">
+  			{% block content %}{% endblock %}
+  		</section>
+  		<footer>
+  			<ul>
+  				<li>&#169; Copyright 2013</li>
+  			</ul>
+  		</footer>
+  	</body>
+</html>

@@ -1,0 +1,64 @@
+{% extends 'templates/base.html' %}
+{% block content %}
+
+<section class="location">
+	<div class="mapWrapper blackBox rounded">
+		<div id="map"></div>
+		<p class="address">
+			<strong>Windmill Townhomes & Duplexes</strong>,
+			<span>109 Windmill A1, San Marcos, TX 78666</span>
+		</p>
+		<p><a target="_blank" class="directions"
+		      href="https://maps.google.com/?q=109+Windmill+A1,+San+Marcos,+TX+78666">Get Directions</a></p>
+	</div>
+	<section class="bottom">
+		<div class="utilities blackBox rounded">
+			<p class="desc">If you are looking into moving to the area you may 
+			   find this information useful. Addresses and phone numbers to 
+			   local utilities, moving companies, and more.</p>
+			<ul>
+				<li>
+					<h3>Electric</h3>
+					<a>San Marcos Electric Utility</a>
+					<p>1040 Highway 123</p>
+					<p>San Marcos, Texas 78666-7739</p>
+					<p>Phone: 512.396.2451</p>
+				</li>
+				<li>
+					<h3>Electric</h3>
+					<a>San Marcos Electric Utility</a>
+					<p>1040 Highway 123</p>
+					<p>San Marcos, Texas 78666-7739</p>
+					<p>Phone: 512.396.2451</p>
+				</li>
+				<li>
+					<h3>Electric</h3>
+					<a>San Marcos Electric Utility</a>
+					<p>1040 Highway 123</p>
+					<p>San Marcos, Texas 78666-7739</p>
+					<p>Phone: 512.396.2451</p>
+				</li>
+				<li>
+					<h3>Electric</h3>
+					<a>San Marcos Electric Utility</a>
+					<p>1040 Highway 123</p>
+					<p>San Marcos, Texas 78666-7739</p>
+					<p>Phone: 512.396.2451</p>
+				</li>
+			</ul>
+		</div>
+		<div class="city blackBox rounded">
+			<h3>City Information</h3>
+			<ul>
+				<li><a>City of San Marcos</a></li>
+				<li><a>San Marcos Chamber of Commerce</a></li>
+				<li><a>San Marcos Daily Record Newspaper</a></li>
+				<li><a>Texas State University</a></li>
+			</ul>
+		</div>
+	</section>
+	<br class="clear" />
+</section>
+<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtqQhVM2znHK-S9SWeDuBFzmUZCafWxqY&sensor=false"></script>
+{% endblock %}

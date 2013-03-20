@@ -3,8 +3,9 @@
 	<head>
     	<title>Windmill Townhomes</title>
     	<link type="text/css" rel="stylesheet" href="/css/main.css" />
-    	<script type="text/javascript" src="/js/jquery.js"></script>
+    	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     	<script type="text/javascript" src="/js/main.js"></script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   	</head>
   	<body>
   		<header class="shadow">
@@ -18,13 +19,14 @@
   				<li><a href="/contact">Contact</a></li>
   			</ul>		
   		</header>
-  		<img class="bg" src="http://farm9.staticflickr.com/8382/8552707810_b5110806a8_h.jpg" />
+  		<img class="bg" src="{{ bg.small }}" />
+  		<img class="bg" src="{{ bg.large }}" />
   		<section class="main">
   			{% block content %}{% endblock %}
   		</section>
   		<footer>
   			<ul>
-  				<li>&#169; Copyright 2013</li>
+  				<li>&#169; Copyright 2013</li>  				
   			</ul>
   		</footer>
   	</body>

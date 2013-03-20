@@ -1,0 +1,40 @@
+{% extends 'templates/base.html' %}
+{% block content %}
+<section class="contact">
+	<div class="blackBox rounded info">
+		<ul>
+			<li>
+				<label>Phone:</label>
+				<span>512-396-4181</span>
+			</li>
+			<li>
+				<label>Fax:</label>
+				<span>512-396-5488</span>
+			</li>
+		</ul>	
+	</div>
+	<div class="blackBox rounded formWrapper">
+		<form>
+			<div class="field">
+				<label>Name</label>
+				<input type="text" name="name" />
+			</div>
+			<div class="field">
+				<label>Email</label>			
+				<input type="text" name="email" />
+			</div>
+			<div class="field">
+				<label>Desired Move In</label>
+				<select>
+					<option>May 20th</option>
+					<option>August 20th</option>
+				</select>
+			</div>
+			<div class="field">
+				<label>Comments</label>
+				<textarea></textarea>
+			</div>
+		</form>
+	</div>
+</section>
+{% endblock %}
